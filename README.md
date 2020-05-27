@@ -7,7 +7,7 @@ Flutter HTML Editor is a text editor for android and iOS to help write WYSIWYG H
 
 ## Setup
 
-add ```html_editor: ^1.0.1``` as deppendecy to pubspec.yaml
+add ```flutter_html_editor: ^1.0.1``` as deppendecy to pubspec.yaml
 
 ### iOS
 
@@ -35,7 +35,7 @@ Add the following keys to your Info.plist file, located in <project root>/ios/Ru
 
 1. import flutter html editor
 ```
-    import 'package:html_editor/html_editor.dart';
+    import 'package:flutter_html_editor/flutter_html_editor.dart';
 ```
 
 2. Create Global key from HTML Editor State

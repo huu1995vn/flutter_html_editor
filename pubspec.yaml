@@ -1,7 +1,7 @@
-name: dailyxe_html_editor
+name: flutter_html_editor
 description: Flutter HTML Editor is a text editor for android and iOS to help write WYSIWYG HTML code based on the Summernote javascript wrapper
-version: 1.0.1
-homepage: https://github.com/xrb21/flutter-html-editor.git
+version: 1.0.0
+homepage: https://github.com/huu1995vn/flutter_html_editor.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -26,15 +26,15 @@ flutter:
 
   # To add assets to your package, add an assets section, like this:
   assets:
-    - packages/html_editor/summernote/summernote.html
-    - packages/html_editor/summernote/summernote-lite.min.css
-    - packages/html_editor/summernote/summernote-lite.min.js
-    - packages/html_editor/summernote/summernote-lite.min.js.map
-    - packages/html_editor/summernote/jquery-3.4.1.slim.min.js
-    - packages/html_editor/summernote/font/summernote.eot
-    - packages/html_editor/summernote/font/summernote.ttf
-    - packages/html_editor/summernote/font/summernote.woff
-    - packages/html_editor/summernote/font/summernote.woff2
+    - packages/flutter_html_editor/summernote/summernote.html
+    - packages/flutter_html_editor/summernote/summernote-lite.min.css
+    - packages/flutter_html_editor/summernote/summernote-lite.min.js
+    - packages/flutter_html_editor/summernote/summernote-lite.min.js.map
+    - packages/flutter_html_editor/summernote/jquery-3.4.1.slim.min.js
+    - packages/flutter_html_editor/summernote/font/summernote.eot
+    - packages/flutter_html_editor/summernote/font/summernote.ttf
+    - packages/flutter_html_editor/summernote/font/summernote.woff
+    - packages/flutter_html_editor/summernote/font/summernote.woff2
   #  - images/a_dot_ham.jpeg
   #
   # For details regarding assets in packages, see

@@ -1,4 +1,4 @@
-library html_editor;
+library flutter_html_editor;
 
 import 'dart:convert';
 import 'dart:io';
@@ -7,8 +7,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:html_editor/local_server.dart';
-import 'package:html_editor/pick_image.dart';
+import 'package:flutter_html_editor/local_server.dart';
+import 'package:flutter_html_editor/pick_image.dart';
 import 'package:path/path.dart' as p;
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -86,7 +86,7 @@ class HtmlEditorState extends State<HtmlEditor> {
   }
 
   _loadHtmlFromAssets() async {
-    final filePath = 'packages/html_editor/summernote/summernote.html';
+    final filePath = 'packages/flutter_html_editor/summernote/summernote.html';
     _controller.loadUrl("http://localhost:$port/$filePath");
   }
 
@@ -112,7 +112,7 @@ class HtmlEditorState extends State<HtmlEditor> {
 
                 if (Platform.isAndroid) {
                   final filename =
-                      'packages/html_editor/summernote/summernote.html';
+                      'packages/flutter_html_editor/summernote/summernote.html';
                   _controller.loadUrl(
                       "file:///android_asset/flutter_assets/" + filename);
                 } else {
