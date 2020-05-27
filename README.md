@@ -7,7 +7,7 @@ Flutter HTML Editor is a text editor for android and iOS to help write WYSIWYG H
 
 ## Setup
 
-add ```flutter_html_editor: ^1.0.1``` as deppendecy to pubspec.yaml
+add ```flutter_html_editor: ^1.0.0``` as deppendecy to pubspec.yaml
 
 ### iOS
 
